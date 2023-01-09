@@ -91,7 +91,7 @@ footer {
 .foot-links {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 .foot-links a {
