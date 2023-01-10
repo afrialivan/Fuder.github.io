@@ -1,0 +1,130 @@
+:root {
+  --primary: #6D8B74;
+}
+
+
+/* reset */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+/* mobile */
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif; 
+}
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+main {
+  grid-column: span 12;
+  padding: 0 20px;
+}
+.img-catering {
+  grid-column: span 12;
+  margin: auto;
+  display: block;
+}
+.text-catering {
+  grid-column: span 12;
+}
+.text-catering h2 {
+  font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
+}
+.text-catering p {
+  font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
+  line-height: 150%;
+  display: inline-block;
+}
+.text-catering p:nth-child(2){
+  margin-bottom: 20px;
+}
+.text-catering hr {
+  margin-top: 30px;
+}
+.text-catering .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 10px;
+}
+.menu h3{
+  color: black;
+  font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
+  text-align: center;
+  margin: 20px 0;
+}
+.container {
+  gap: 10px;
+}
+.container a {
+  width: 100%;
+  grid-column: span 6;
+  background-color: var(--primary);
+  padding: 12px 0;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.list h4 {
+  font-size: calc(1.7rem + ((1vw - 7.68px) * 0.6944));
+  margin-bottom: 10px;
+}
+.list ul {
+  list-style: disc;
+}
+.list ul li, h4,.list h3 {
+  color: white;
+}
+.list ul li {
+  font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
+}
+.list h3 {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 20px;
+  font-size: calc(2rem + ((1vw - 7.68px) * 0.6944));
+}
+
+
+/* tablet */
+@media screen and (min-width: 620px) {
+  
+}
+
+
+/* laptop */
+@media screen and (min-width: 960px){
+  
+}
+
+
+/* desktop */
+@media screen and (min-width: 1200px){
+
+}
