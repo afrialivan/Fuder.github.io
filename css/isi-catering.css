@@ -45,8 +45,11 @@ main {
 }
 .img-catering {
   grid-column: span 12;
+}
+.img-catering img {
   margin: auto;
   display: block;
+  width: 90%;
 }
 .text-catering {
   grid-column: span 12;
@@ -87,15 +90,16 @@ main {
   grid-column: span 6;
   background-color: var(--primary);
   padding: 12px 0;
-  padding-left: 40px;
   box-sizing: border-box;
   border-radius: 20px;
 }
 .list h4 {
   font-size: calc(1.7rem + ((1vw - 7.68px) * 0.6944));
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  padding-left: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
 }
 .list ul {
+  padding-left: calc(2.4rem + ((1vw - 7.68px) * 0.6944));
   list-style: disc;
 }
 .list ul li, h4,.list h3 {
@@ -107,8 +111,9 @@ main {
 .list h3 {
   margin-top: 20px;
   text-align: right;
+  /* width: 200px; */
   margin-right: 20px;
-  font-size: calc(2rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1.8rem + ((1vw - 7.68px) * 0.6944));
 }
 
 
