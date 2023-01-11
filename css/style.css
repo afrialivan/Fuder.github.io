@@ -39,141 +39,177 @@ a {
 }
 
 
-section {
-  padding: 0 45px;
-}
-
 /* mobile */
 body{
-  font-size: 15px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
-.landing-page {
-  text-align: center;
-  height: 40vh;
-  display: flex;
-  align-items: center;
+section {
+  padding: 0 calc(1rem + ((1vw - 7.68px) * 0.6944));
+  
 }
-.container{
-  margin: auto;
+.landing-page {
+  margin: 40px 0;
+  text-align: center;
+}
+.landing-page-logo {
+  grid-column: span 12;
 }
 .landing-page-logo img{
   margin: auto;
   display: block;
-  width: calc(20rem + ((2vw - 7.68px) * 0.6944));
+  width: 60%;
 }
-.landing-page a {
+.landing-page .link {
+  grid-column: span 12;
   display: inline-block;
   font-size: 1.2em;
   margin-top: 10px;
 }
-.definisi{
-  
-  height: 40vh;
-}
-.definisi-text{
-  /* grid-column: span 12; */
-  font-size: 1em;
-}
 h2 {
-  font-size: 2em;
+  font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   font-weight: 600;
 }
 span{
   color: var(--primary);
 }
 .definisi {
-  align-items: flex-start;
+  grid-column: span 12;
+  margin-bottom: 50px;
 }
 .definisi-text {
-  grid-column: 1/6;
+  grid-column: span 12;
+  margin-bottom: 20px;
 }
 .definisi-text h2 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
 }
 .definisi-text p {
   font-family: 'Poppins', sans-serif;
   line-height: 150%;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-align: justify;
-  font-size: 1.1em;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 .definisi-img{
-  grid-column: 7/12;
+  grid-column: span 12;
 }
 .definisi-img img{
-  width: 260px;
+  width: calc(9rem + ((1vw - 7.68px) * 0.6944));
   margin: 0 auto;
   display: block;
+}
+.keunggulan {
+  margin-bottom: 50px;
+}
+.keunggulan h2 {
+  margin-bottom: 10px;
 }
 .superiors{
   gap: 8px;
   /* height: 50vh; */
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .superior {
-  padding: 20px;
-  width: 80%;
+  padding: 10px 0;
+  /* width: 80%; */
   grid-column: span 6;
   border: 1px dashed black;
   border-radius: 20px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  /* margin-bottom: 10px; */
+  /* margin-top: 20px; */
 }
-.superior:nth-child(3){
+.superior:nth-last-child(1){
   grid-column: 4/10;
   grid-row: 2;
 }
 .superior p {
   text-align: center;
-  font-size: 1.4em;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 .superior img {
-  width: 40%;
+  width: 20%;
   display: block;
   margin: auto;
 }
 .gabung {
-  height: 25vh;
+  margin-bottom: 40px;
 }
 .gabung p {
-  font-weight: 600;
-  font-size: 1.2em;
+  /* font-weight: 600; */
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   line-height: 150%;
   margin-top: 10px;
 }
 .gunakan {
   text-align: center;
-  height: 15vh;
-  position: relative;
+  padding: 0;
 }
-.gunakan p {
-  font-size: 1.3em;
+.gunakan .text-gunakan h2 {
+  font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
+}
+.gunakan .text-gunakan p {
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 footer {
   background-color: var(--primary);
   color: white;
   text-align: center;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   padding: 30px 0;
 }
 .hiasan {
-  position: absolute;
-  left: 0;
-  top: -60px;
+  grid-row: 1;
+  grid-column: 1/3;
+  /* top: -60px; */
   z-index: -99;
+  margin-top: -40px;
 }
 .hiasan img {
-  width: 100px;
+  width: 200%;
 }
 
 
 /* tablet */
-
+@media screen and (min-width: 620px) {
+  .definisi-img {
+    grid-column: 9/12;
+  }
+  .definisi-text {
+    grid-column: 1/8;
+  }
+  .definisi-img img {
+    width: 100%;
+  }
+  section {
+    padding: 0 calc(3rem + ((1vw - 7.68px) * 0.6944));
+  }
+}
 
 
 /* laptop */
-
+@media screen and (min-width: 960px) {
+  section {
+    padding: 0 calc(4rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .landing-page {
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+  }
+  .landing-page .link {
+    margin-top: -400px;
+    display: block;
+  }
+  .landing-page .link a {
+    padding: 15px 30px;
+    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+  }
+}
 
 
 /* desktop */
+@media screen and (min-width: 1200px) {
+  
+}
