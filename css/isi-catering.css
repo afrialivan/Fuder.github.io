@@ -130,7 +130,9 @@ main {
 
 /* laptop */
 @media screen and (min-width: 960px){
-  
+  .container a {
+    grid-column: span 4;
+  }
 }
 
 
