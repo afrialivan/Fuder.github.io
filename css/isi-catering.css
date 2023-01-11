@@ -58,14 +58,16 @@ main {
   font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
 }
 .text-catering p {
-  font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   line-height: 150%;
   display: inline-block;
 }
 .text-catering p:nth-child(2){
+  color: #4f4f4f;
+  font-weight: 500;
   margin-bottom: 20px;
 }
-.text-catering hr {
+hr {
   margin-top: 30px;
 }
 .text-catering .btn {
@@ -89,7 +91,8 @@ main {
   width: 100%;
   grid-column: span 12;
   background-color: var(--primary);
-  padding: 12px 0;
+  padding-top: 18px;
+
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -130,6 +133,15 @@ main {
 
 /* laptop */
 @media screen and (min-width: 960px){
+  .catering {
+    margin-top: 50px;
+  }
+  .img-catering {
+    grid-column: 1/6;
+  }
+  .text-catering {
+    grid-column: 7/12;
+  }
   .container a {
     grid-column: span 4;
   }
