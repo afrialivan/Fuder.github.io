@@ -87,7 +87,7 @@ hr {
 .container {
   gap: 10px;
 }
-.container a {
+.container .card {
   width: 100%;
   grid-column: span 12;
   background-color: var(--primary);
@@ -118,6 +118,33 @@ hr {
   margin-right: 20px;
   font-size: calc(1.6rem + ((1vw - 7.68px) * 0.6944));
 }
+.pilih {
+  position: fixed;
+  bottom: 0;
+  /* right: 10px; */
+  background-color: white;
+  width: 100vw;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.pilihan {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+}
+.pilihan button {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6D8B74;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
 
 
 /* tablet */
@@ -125,7 +152,7 @@ hr {
   .menu .container {
     gap: 30px;
   }
-  .container a {
+  .container .card {
     grid-column: span 6;
   }
 }
@@ -142,7 +169,7 @@ hr {
   .text-catering {
     grid-column: 7/12;
   }
-  .container a {
+  .container .card {
     grid-column: span 4;
   }
 }
