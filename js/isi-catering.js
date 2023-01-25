@@ -7,12 +7,12 @@ const pilih = document.getElementById('pilih')
 const a = document.querySelector('.pilihan h3')
 const tambah = document.getElementById('tambah')
 const kurang = document.getElementById('kurang')
-var o = 1
+var o = 0
 
 oi.onclick = function() {
+  o++
   a.innerHTML=o
   pilih.style.bottom='0'
-  o++
 }
 tambah.onclick = function() {
   a.innerHTML=o
