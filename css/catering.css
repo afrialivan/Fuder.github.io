@@ -112,6 +112,7 @@ footer {
 @media screen and (min-width: 620px) {
   .card {
     grid-column: span 4;
+    width: 80%;
   }
   .foot-links {
     width: 50%;
@@ -133,6 +134,7 @@ footer {
     top: 0;
   }
   main {
+    padding-left: 30px;
     grid-column: 4/13;
   } 
   main h2 {
@@ -211,6 +213,7 @@ footer {
     background-color: var(--primary);
   }
   main {
+    padding-left: 30px;
     grid-column: 4/13;
   } 
   main h2 {
