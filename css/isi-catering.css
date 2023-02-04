@@ -83,14 +83,14 @@ hr {
 }
 .menu h3{
   color: black;
-  font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(2rem + ((1vw - 7.68px) * 0.6944));
   text-align: center;
   margin-top: 10px;
 }
-.container {
+.cards {
   gap: 10px;
 }
-.container .card {
+.cards .card {
   width: 100%;
   grid-column: span 12;
   background-color: var(--primary);
@@ -99,27 +99,10 @@ hr {
   box-sizing: border-box;
   border-radius: 20px;
 }
-.list h4 {
-  font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
-  margin-bottom: 8px;
-  padding-left: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
-}
-.list ul {
-  padding-left: calc(2.9rem + ((1vw - 7.68px) * 0.6944));
-  list-style: disc;
-}
-.list ul li, h4,.list h3 {
-  color: white;
-}
-.list ul li {
-  font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
-}
-.list h3 {
-  margin-top: 20px;
-  text-align: right;
-  /* width: 200px; */
-  margin-right: 20px;
-  font-size: calc(1.6rem + ((1vw - 7.68px) * 0.6944));
+.card-img {
+  width: 90%;
+  margin: auto;
+  display: block;
 }
 .pilih {
   transition: 0.5s ease-in-out;
@@ -161,21 +144,39 @@ hr {
 }
 
 .option h3 {
-  font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 
 .option p {
   font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
-
+.card h3 {
+  margin-top: -2px;
+  color: black;
+  font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
+}
+.card p {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
+}
 
 /* tablet */
 @media screen and (min-width: 620px) {
-  .menu .container {
+  .menu .cards {
     gap: 30px;
   }
-  .container .card {
-    grid-column: span 6;
+  .cards .card {
+    grid-column: span 4;
+  }
+  .option h3 {
+    font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
+  }
+  
+  .option p {
+    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   }
 }
 
