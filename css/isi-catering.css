@@ -85,7 +85,7 @@ hr {
   color: black;
   font-size: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
   text-align: center;
-  margin: 20px 0;
+  margin-top: 10px;
 }
 .container {
   gap: 10px;
@@ -152,13 +152,22 @@ hr {
 }
 
 .options {
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .options a {
   grid-column: span 3;
   text-align: center;
 }
+
+.option h3 {
+  font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
+}
+
+.option p {
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+}
+
 
 /* tablet */
 @media screen and (min-width: 620px) {
