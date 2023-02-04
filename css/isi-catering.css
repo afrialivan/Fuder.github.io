@@ -67,6 +67,9 @@ main {
   font-weight: 500;
   margin-bottom: 20px;
 }
+.keterangan {
+  display: block;
+}
 hr {
   margin-top: 30px;
 }
@@ -148,6 +151,14 @@ hr {
   font-weight: 600;
 }
 
+.options {
+  margin-top: 20px;
+}
+
+.options a {
+  grid-column: span 3;
+  text-align: center;
+}
 
 /* tablet */
 @media screen and (min-width: 620px) {
