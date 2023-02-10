@@ -23,7 +23,7 @@ a {
 
 
 /* grid */
-.grid {
+.gridd {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -48,10 +48,10 @@ main h2 {
   color: white;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
-.cards {
+.cardds {
   margin-top: 30px;
 }
-.card {
+.cardd {
   grid-column: span 6;
   border-radius: 20px;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
@@ -59,23 +59,23 @@ main h2 {
   margin-bottom: 20px;
   /* padding-bottom: 10px; */
 }
-.card a img {
+.cardd a img {
   width: 100%;
   object-fit: cover;
   margin: auto;
   display: block;
 }
-.text-card p {
+.text-cardd p {
   text-align: center;
   font-size: 1rem;
 }
-.text-card {
+.text-cardd {
   padding: 10px;
   background-color: var(--primary);
   color: white;
   border-radius: 20px;
 }
-.text-card h3 {
+.text-cardd h3 {
   font-size: 1em;
   text-align: center;
 }
@@ -110,7 +110,7 @@ footer {
 
 /* tablet */
 @media screen and (min-width: 620px) {
-  .card {
+  .cardd {
     grid-column: span 4;
     width: 80%;
   }
@@ -142,11 +142,11 @@ footer {
     box-shadow: none;
     color: var(--primary);
   }
-  .nav-links a {
+  .nav-a a {
     display: flex;
     align-items: center;
   }
-  .nav-links a h3 {
+  .nav-a a h3 {
     color: white;
   }
   .nav-foto {
@@ -184,23 +184,23 @@ footer {
     /* width: 300px; */
     margin: auto;
   }
-  .nav-links {
+  .nav-a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
   }
-  .nav-links a {
+  .nav-a a {
     margin-left: calc(2rem + ((1vw - 7.68px) * 0.6944));
   }
-  .nav-links a img {
+  .nav-a a img {
     width: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
     margin-right: 10px;
   }
-  .nav-links a h3 {
+  .nav-a a h3 {
     font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   }
-  .text-card h3 {
+  .text-cardd h3 {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   }
 }
@@ -220,11 +220,11 @@ footer {
     font-size: 2rem;
     margin-top: 10px;
   }
-  .nav-links a {
+  .nav-a a {
     display: flex;
     align-items: center;
   }
-  .nav-links a h3 {
+  .nav-a a h3 {
     color: white;
   }
   .nav-foto {
@@ -252,10 +252,10 @@ footer {
     margin: auto;
     width: 55%;
   }
-  .nav-links a {
+  .nav-a a {
     margin-left: 40px;
   }
-  .text-card h3 {
+  .text-cardd h3 {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));;
   }
 }
