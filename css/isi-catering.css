@@ -64,6 +64,7 @@ main h2 {
 main nav ol li a {
   color: #999999;
 }
+
 .contact p{
   font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
 }
@@ -102,14 +103,21 @@ main nav ol li a {
 .text-cardd h5{
   color: black;
   margin-top: 10px;
+  font-weight: 600;
+  font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
 }
 .text-cardd h3{
+  font-weight: 600;
+  font-size: calc(1.9rem + ((1vw - 7.68px) * 0.6944));
   margin-top: -10px;
   color: black;
 }
-.text-cardd a {
+.text-cardd .buttong {
+  font-weight: 600;
   margin-bottom: 20px;
   margin-right: 25px;
+  border-radius: 20px;
+  border: 2px solid black !important;
 }
 .cardd a img {
   width: 80%;
