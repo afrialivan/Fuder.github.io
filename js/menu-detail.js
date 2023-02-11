@@ -1,21 +1,13 @@
-// const bg = document.getElementById('alerts')
-// // document.getElementById('keranjang').onclick() = aler()
+const btn = document.getElementById('keranjang')
 
-// // const keranjang = document.getElementById('keranjang1')
+// btn.addEventListener('click', keranjang)
 
-
-// // document.querySelector('body').onclick() = alert("test")
-// document.querySelector('keranjang').addEventListener('click', alert('oi'))
-
-// keranjang.onclick = function(){
-//     bg.style.backgroundColor="black"
-// }
-
-// // function oi(){
-// //     bg.style.backgroundColor="black"
-// // }
-
-function keranjang(){
-    document.getElementById("alerts").classList.add("ada")
+btn.onclick = function keranjang(){
+    document.querySelector(".notiff").classList.add("notif-aktif")
     console.log("hi")
 }
+
+// function keranjang(){
+//     // document.getElementById("alerts").classList.add("ada")
+//     console.log("hi")
+// }
