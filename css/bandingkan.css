@@ -70,87 +70,11 @@ main nav ol li a {
   color: #999999;
 }
 
-.contact p {
-  font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
-}
-
-.nav-menu {
-  width: 80%;
-}
-
-.nav-menu-item a h4 {
-  margin-top: 10px;
-  margin-bottom: -2px;
-  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
-  color: black;
-}
-
-.nav-menu-item a p {
-  color: #6D8B74;
-  font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
-}
-
-.nav-menu .active {
-  padding: 0px 20px;
-  /* width: 200px;
-  height: 70px; */
-  border-radius: 20px;
-  border: 2px solid #6D8B74;
-}
-
-.gambar {
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.tombol-jumlah {
-  border: 1px solid #BDBDBD;
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-}
-.tombol-jumlah p {
-  line-height: 40px;
-  border-left: 1px solid #BDBDBD;
-  border-right: 1px solid #BDBDBD;
-  height: 100%;
-  padding: 0 15px;
-}
-
-.tombol .btn {
-  background-color: #6D8B74;
-  border-radius: 10px;
-  width: 80%;
-}
-
-.fw {
-  font-weight: 500;
-}
-
-.notiff {
-  display: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.notif-aktif {
-  display: flex;
-
-}
-.notif {
-  background-color: white;
-  width: 40%;
-  padding: 20px 0;
-  border-radius: 20px;
-  /* height: 40px; */
-}
-.notif .btn {
-  background-color: #D9D9D9;
-  width: 100px;
-  border-radius: 20px;
+.card {
+  background-color: #6D8B74 !important;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 footer {
@@ -289,10 +213,6 @@ footer {
     font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   }
 
-  .gambar {
-    width: 80%;
-    height: 300px;
-  }
 
 }
 
