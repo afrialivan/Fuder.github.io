@@ -97,6 +97,29 @@ main {
   color: white;
 }
 
+.kontak {
+  margin-left: 50px;
+  padding: 20px 10px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.kontak img {
+  width: 30%;
+}
+.kontak p {
+  text-align: center;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+}
+
+.pengantaran-btn a {
+  background-color: #6D8B74;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+}
+
+
 main h4 {
   margin-left: 100px;
 }
