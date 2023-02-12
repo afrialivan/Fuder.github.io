@@ -90,7 +90,7 @@ main hr {
   width: 100%;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
-  padding: 10px 30px;
+  padding: 10px 40px;
   box-sizing: border-box;
 }
 .item-gambar {
@@ -105,11 +105,53 @@ main hr {
   box-sizing: border-box;
 }
 
+table {
+  width: 70%;
+}
+table th {
+  width: 300px;
+}
+table tr td:nth-child(3) {
+  text-align: end;
+}
+table tr hr {
+  width: 100%;
+}
+.btn {
+  padding: 10px 50px !important;
+  margin: 0 20px;
+}
+.btnn {
+  background-color: #6D8B74 !important;
+  color: white !important;
+  padding: 10px 50px !important;
+  margin: 0 20px;
+}
 
+.buttonn .btn {
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+}
+.kontak {
+  padding: 20px 5px;
+  width: 190px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.kontak img {
+  width: 30%;
+}
+.kontak p {
+  text-align: center;
+  font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
+}
 
+.tgl {
+  width: 300px !important;
+}
 
-
-
+.text {
+  font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
+}
 footer {
   position: fixed;
   bottom: 0;
@@ -242,6 +284,9 @@ footer {
     margin-right: 10px;
   }
 
+  .nav-a a:nth-child(4) img{
+    width: calc(1.8rem + ((1vw - 7.68px) * 0.6944));
+  }
   .nav-a a h3 {
     font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   }

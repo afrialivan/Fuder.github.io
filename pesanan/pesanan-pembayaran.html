@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
   <title>Catering | FUDER</title>
-  <link rel="stylesheet" href="css/pesanan.css">
+  <link rel="stylesheet" href="../css/pesanan.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -29,17 +29,16 @@
           <img src="img/menu.png" alt="">
           <h3>MENU</h3>
         </a>
-        <a class="text-decoration-none" href="chat.html">
-          <img src="img/chat.png" alt="">
+        <a class="text-decoration-none" href="keranjang.html">
+          <img src="img/keranjang.png" alt="">
           <h3>KERANJANG</h3>
         </a>
-        <a class="text-decoration-none" href="pesanan.html">
+        <a class="text-decoration-none" href="pesanan/pesanan-belum-bayar.html">
           <img src="img/pesanan.png" alt="">
           <h3>PESANAN</h3>
         </a>
       </div>
     </nav>
-
   </header>
   <main>
 
@@ -51,7 +50,7 @@
           <a href="" class="text-decoration-none text-dark">BELUM BAYAR</a>
         </div>
         <div class="nav-item">
-          <a href="" class="text-decoration-none">DIPROSES</a>
+          <a href="pesanan-proses.html" class="text-decoration-none">DIPROSES</a>
         </div>
       </div>
       <div class="nav-items d-flex">
@@ -71,36 +70,43 @@
       <div class="row align-items-center">
         <div class="col-10">
           <h2 class="fw-bold mt-2">Catering Pratama</h2>
+          <h5>ID Pemesanan : IDN300123-1</h5>
         </div>
         <div class="col-2">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
           </div>
         </div>
       </div>
-      <div class="row kotak-item">
-        <div class="col-3">
-          <img src="img/gambar1.png" class="item-gambar" alt="">
-        </div>
-        <div class="col-9">
-          <h3>Tumpeng Besar - A</h3>
-          <div class="rows d-flex justify-content-between align-items-center">
-            <p>Rp. 19.289.000</p>
-            <p class="bg-secondary px-2">1</p>
-          </div>
-          <hr>
-        </div>
-      </div>
-      <div class="row mt-4 align-items-end mb-3">
-        <div class="col-5">
-          <form action="">
-            <h3>Jadwal Pengantaran</h3>
-            <input type="datetime-local" name="" id="" class="form-control mb-3" disabled>
-          </form>
-        </div>
-      </div>
+      <table class="mt-4">
+        <tr>
+          <th>Total Pemesanan</th>
+          <td>Rp</td>
+          <td>19.289.000,-</td>
+        </tr>
+        <tr>
+          <th>Biaya Pengantaran</th>
+          <td>Rp</td>
+          <td>80.000,-</td>
+        </tr>
+        <tr>
+          <td colspan="3"><hr></td>
+        </tr>
+        <tr>
+          <th>Total Biaya</th>
+          <td>Rp</td>
+          <td>19.369.000,-</td>
+        </tr>
+        <tr>
+          <th>DP 50%</th>
+          <td>Rp</td>
+          <td> 8.134.500,-</td>
+        </tr>
+      </table>
 
-    </div>
+      <p class="mt-3 text">Silahkan transfer ke Nomor Rekening : <strong>........................................</strong> a.n. PT. FUDER MAKANAN INDONESIA di BANK BSI dengan nominal Rp. 8.134.500</p>
+      <p class="text-end">Bayar Sebelum 31/01/2023 11:42 WITA</p>
     </div>
 
     <!-- -------------- -->

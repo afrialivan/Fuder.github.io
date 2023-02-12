@@ -238,6 +238,9 @@ footer {
   .nav-a a h3 {
     color: white;
   }
+  .nav-a a:nth-child(4) img{
+    width: calc(1.8rem + ((1vw - 7.68px) * 0.6944));
+  }
 
   .nav-foto {
     margin: auto;
