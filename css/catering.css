@@ -61,11 +61,15 @@ main h2 {
 }
 .cardd a img {
   width: 100%;
-  object-fit: cover;
+  height: calc(12.5rem + ((1vw - 7.68px) * 0.6944));
+  /* object-fit: cover; */
   margin: auto;
   display: block;
 }
 .text-cardd {
+  position: relative;
+  margin-top: -15px;
+  z-index: 90;
   padding: 8px 20px;
   background-color: #BCCAA5;
   color: black;
@@ -186,6 +190,14 @@ footer {
     transition: 0.3s;
     content: '';
   }
+  .nav-foto h3 {
+    transition: .2s;
+    text-align: center;
+    font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944)) !important;
+    color: white;
+    /* width: 300px; */
+    margin: auto;
+  }
   .nav-foto:hover h3 {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
     transition: .2s;
@@ -202,16 +214,9 @@ footer {
   }
   .foto img {
     margin: auto;
-    width: 55%;
+    object-fit: cover;
   }
-  .nav-foto h3 {
-    transition: .2s;
-    text-align: center;
-    font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
-    color: white;
-    /* width: 300px; */
-    margin: auto;
-  }
+  
   .nav-a {
     display: flex;
     flex-direction: column;
@@ -294,10 +299,6 @@ footer {
     display: flex;
     align-items: center;
     overflow: hidden;
-  }
-  .foto img {
-    margin: auto;
-    width: 55%;
   }
   .nav-a a {
     margin-left: 40px;

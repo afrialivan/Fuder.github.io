@@ -55,6 +55,7 @@ header {
 
 main {
   grid-column: span 12;
+  padding-left: 20px;
 }
 
 main h2 {
@@ -69,6 +70,7 @@ main h2 {
 main nav ol li a {
   color: #999999;
 }
+
 
 .card {
   background-color: #6D8B74 !important;
