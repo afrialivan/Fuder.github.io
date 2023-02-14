@@ -54,7 +54,7 @@ main h2 {
 .cardd {
   grid-column: span 6;
   border-radius: 20px;
-  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 5px 10px 6px rgba(0, 0, 0, 0.1);
   margin: 0 10px;
   margin-bottom: 20px;
   /* padding-bottom: 10px; */
@@ -65,20 +65,24 @@ main h2 {
   margin: auto;
   display: block;
 }
-.text-cardd p {
-  text-align: center;
-  font-size: 1rem;
-}
 .text-cardd {
-  padding: 10px;
-  background-color: var(--primary);
-  color: white;
+  padding: 8px 20px;
+  background-color: #BCCAA5;
+  color: black;
   border-radius: 20px;
+  overflow: hidden;
 }
 .text-cardd h3 {
-  font-size: 1em;
-  text-align: center;
+  margin-top: 2px;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
+.text-cardd p {
+  margin-top: -5px;
+  line-height: 150%;
+  font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
+  max-lines: 2;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -112,10 +116,15 @@ footer {
 @media screen and (min-width: 620px) {
   .cardd {
     grid-column: span 4;
-    width: 80%;
   }
   .foot-links {
     width: 50%;
+  }
+  .text-cardd h3 {
+    font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .text-cardd p {
+    font-size: calc(.6rem + ((1vw - 7.68px) * 0.6944));
   }
 }
 
@@ -142,6 +151,15 @@ footer {
     box-shadow: none;
     color: var(--primary);
   }
+
+  .side-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+
   .nav-a a {
     display: flex;
     align-items: center;
@@ -163,6 +181,10 @@ footer {
     transition: 0.3s;
     content: '';
   }
+  .nav-foto:hover h3 {
+    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+    transition: .2s;
+  }
   .nav-foto .foto {
     background-color: black;
     border-radius: 100%;
@@ -178,6 +200,7 @@ footer {
     width: 55%;
   }
   .nav-foto h3 {
+    transition: .2s;
     text-align: center;
     font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
     color: white;
@@ -203,8 +226,24 @@ footer {
   .nav-a a h3 {
     font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   }
+
+  .copyright p {
+    color: white;
+    font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
+  }
+
+  .copyright p:nth-child(2) {
+    margin-top: -20px;
+  }
+
+  .cardd {
+    width: 80%;
+  }
   .text-cardd h3 {
-    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+    font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .text-cardd p {
+    font-size: calc(.5rem + ((1vw - 7.68px) * 0.6944));
   }
 }
 
@@ -259,6 +298,9 @@ footer {
     margin-left: 40px;
   }
   .text-cardd h3 {
-    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));;
+    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .text-cardd p {
+    font-size: calc(.4rem + ((1vw - 7.68px) * 0.6944));
   }
 }
