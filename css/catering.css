@@ -62,7 +62,7 @@ main h2 {
 .cardd a img {
   width: 100%;
   height: calc(12.5rem + ((1vw - 7.68px) * 0.6944));
-  /* object-fit: cover; */
+  object-fit: cover;
   margin: auto;
   display: block;
 }
