@@ -112,6 +112,11 @@ footer {
   width: calc(2rem + ((1vw - 7.68px) * 0.6944));
 }
 
+
+.foot-links a:nth-child(4) img{
+  width: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
+}
+
 /* tablet */
 @media screen and (min-width: 620px) {
   .cardd {
