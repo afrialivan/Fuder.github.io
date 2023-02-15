@@ -55,6 +55,7 @@ header {
 
 main {
   grid-column: span 12;
+  margin-left: 20px;
 }
 
 .kotak {
@@ -65,7 +66,7 @@ main {
   box-sizing: border-box;
 }
 .item-gambar {
-  width: 80%;
+  width: 100%;
   height: 100px;
   object-fit: cover;
 }
@@ -97,8 +98,11 @@ main {
   color: white;
 }
 
+.kontaks {
+  display: flex;
+  justify-content: center;
+}
 .kontak {
-  margin-left: 50px;
   padding: 20px 10px;
   width: 200px;
   border: 1px solid black;
@@ -193,6 +197,12 @@ footer {
 
 /* tablet */
 @media screen and (min-width: 620px) {
+  .item-gambar {
+    width: 100%;
+  }
+  .kontaks {
+    justify-content: start;
+  }
   .foot-links {
     width: 50%;
   }
@@ -297,8 +307,12 @@ footer {
     font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
   }
 
-  .card {
-    grid-column: span 4;
+  .kontak {
+    margin-left: 20px;
+  }
+
+  .pengantaran-btn {
+    margin-left: 20px;
   }
 
 }

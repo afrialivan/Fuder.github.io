@@ -131,6 +131,9 @@ main nav ol li a {
 .urutan {
   align-items: center;
 }
+.urutan-text a {
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+}
 .urutans {
   margin-left: 10px;
   border: 1px solid black;
@@ -139,24 +142,25 @@ main nav ol li a {
 }
 .urutans a {
   color: black;
+  font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
 }
 .cards {
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .card {
   width: 100%;
-  grid-column: span 6;
+  grid-column: span 12;
   border-radius: 20px !important;
   border: none !important;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
   padding: 20px 20px;
   box-sizing: border-box;
 }
+
+
 .card-img img {
   width: 100%;
-  height: calc(7rem + ((1vw - 7.68px) * 0.6944));
+  height: calc(10rem + ((1vw - 7.68px) * 0.6944));
   object-fit: cover;
   border-radius: 20px;
 }
@@ -165,10 +169,10 @@ main nav ol li a {
   font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 .card-text h4 {
-  font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
 }
 .card-text h3 {
-  font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1.2rem + ((1vw - 7.68px) * 0.6944));
 }
 footer {
   position: fixed;
@@ -205,6 +209,9 @@ footer {
 
 /* tablet */
 @media screen and (min-width: 620px) {
+  .card {
+    grid-column: span 6;
+  }
   .card-img img {
     width: 100%;
     height: calc(10rem + ((1vw - 7.68px) * 0.6944));

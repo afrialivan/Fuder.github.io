@@ -27,6 +27,7 @@ a {
 
 /* mobile */
 body {
+	position: relative;
 	overflow-x: hidden;
 	font-family: 'Poppins', sans-serif;
 }
@@ -102,6 +103,55 @@ button {
 	color: var(--primary);
 }
 
+.loading {
+	border-radius: 20px;
+	position: absolute;
+	padding: 80px 200px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #6D8B74;
+	display: none;
+}
+
+.svg {
+	width: 100px;
+	height: 100px;
+	animation: putar 3s infinite linear;
+}
+
+.lingkaran {
+	stroke: white;
+	stroke-width: 5px;
+	fill: none;
+	stroke-dasharray: 251;
+	stroke-dashoffset: 0;
+	animation: loading 3s infinite linear;
+}
+
+.ada {
+	display: block;
+}
+
+@keyframes loading {
+	0%, 100% {
+		stroke-dashoffset: 251;
+	}
+	50% {
+		stroke-dashoffset: 50%;
+	}
+	50.1% {
+		stroke-dashoffset: 502;
+	}
+}
+@keyframes putar {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
 /* tablet */
 @media screen and (min-width: 620px) {}
 
