@@ -48,6 +48,7 @@ main h2 {
   color: white;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
+
 .cardds {
   margin-top: 30px;
 }
@@ -61,10 +62,12 @@ main h2 {
 }
 .cardd a img {
   width: 100%;
-  height: calc(12.5rem + ((1vw - 7.68px) * 0.6944));
+  height: calc(7.5rem + ((1vw - 7.68px) * 0.6944));
   object-fit: cover;
   margin: auto;
   display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .text-cardd {
   position: relative;
@@ -78,7 +81,7 @@ main h2 {
 }
 .text-cardd h3 {
   margin-top: 2px;
-  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
 }
 .text-cardd p {
   margin-top: -5px;
@@ -96,6 +99,7 @@ footer {
   height: 70px;
   display: flex;
   align-items: center;
+  display: none;
 }
 .foot-links {
   display: flex;
@@ -135,6 +139,9 @@ footer {
   }
   .text-cardd p {
     font-size: calc(.6rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .cardd a img {
+    height: calc(10.5rem + ((1vw - 7.68px) * 0.6944));
   }
 }
 
@@ -256,6 +263,9 @@ footer {
   .text-cardd p {
     font-size: calc(.5rem + ((1vw - 7.68px) * 0.6944));
   }
+  .cardd a img {
+    height: calc(10.5rem + ((1vw - 7.68px) * 0.6944));
+  }
 }
 
 /* desktop */
@@ -309,5 +319,8 @@ footer {
   }
   .text-cardd p {
     font-size: calc(.4rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .cardd a img {
+    height: calc(13.5rem + ((1vw - 7.68px) * 0.6944));
   }
 }
