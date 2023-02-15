@@ -112,7 +112,7 @@ table {
   width: 100%;
 }
 table th {
-  width: 300px;
+  width: 190px;
 }
 table tr td:nth-child(3) {
   text-align: end;
@@ -132,7 +132,7 @@ table tr hr {
 }
 
 .buttonn .btn {
-  font-size: calc(.6rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
 }
 .kontak {
   padding: 20px 5px;
@@ -148,16 +148,20 @@ table tr hr {
   font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
 }
 
-.tgl {
+.tanggal {
   width: 300px !important;
 }
 
 .text {
-  font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 
-.form-control {
+.date {
   width: 100% !important;
+}
+
+.table-proses {
+  width: 100%;
 }
 
 footer {
@@ -206,6 +210,15 @@ footer {
   }
   .btnn {
     margin: 0 20px;
+  }
+  table th {
+    width: calc(24rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .buttonn .btn {
+    font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
+  }
+  .text {
+    font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
   }
 }
 
@@ -317,6 +330,13 @@ footer {
   .nav-item a {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   }
+  .table-proses {
+    width: 65%;
+  }
+  table th {
+    width: calc(15rem + ((1vw - 7.68px) * 0.6944));
+  }
+  
 }
 
 /* desktop */
@@ -376,5 +396,12 @@ footer {
 
   .nav-a a {
     margin-left: 40px;
+  }
+  .table-proses {
+    width: 70%;
+  }
+
+  table th {
+    width: calc(25rem + ((1vw - 7.68px) * 0.6944));
   }
 }
