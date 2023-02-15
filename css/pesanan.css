@@ -88,7 +88,9 @@ main h2 {
 main hr {
   width: 80%;
 }
-
+.id-pesanan {
+  margin-top: 20px;
+}
 .kotak {
   width: 100%;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
@@ -196,9 +198,11 @@ footer {
 .foot-links a img {
   width: calc(2rem + ((1vw - 7.68px) * 0.6944));
 }
-
 /* tablet */
 @media screen and (min-width: 620px) {
+  .id-pesanan {
+    margin-top: 0px;
+  }
   .progress {
     width: 200px;
   }
