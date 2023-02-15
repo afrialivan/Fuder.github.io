@@ -120,10 +120,10 @@ table tr td:nth-child(3) {
 table tr hr {
   width: 100%;
 }
-.btn {
-  /* padding: 10px 50px !important; */
-  /* margin: 0 20px; */
-}
+/* .btn {
+  padding: 10px 50px !important;
+  margin: 0 20px;
+} */
 .btnn {
   background-color: #6D8B74 !important;
   color: white !important;
