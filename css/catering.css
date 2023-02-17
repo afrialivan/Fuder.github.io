@@ -7,10 +7,12 @@
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: var(--primary);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -32,14 +34,17 @@ a {
 /* mobile */
 body {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
 }
+
 header {
   display: none;
 }
+
 main {
   grid-column: span 12;
 }
+
 main h2 {
   text-align: center;
   /* margin-top: 20px; */
@@ -52,6 +57,7 @@ main h2 {
 .cardds {
   margin-top: 30px;
 }
+
 .cardd {
   grid-column: span 6;
   border-radius: 20px;
@@ -60,6 +66,7 @@ main h2 {
   margin-bottom: 20px;
   /* padding-bottom: 10px; */
 }
+
 .cardd a img {
   width: 100%;
   height: calc(7.5rem + ((1vw - 7.68px) * 0.6944));
@@ -69,6 +76,7 @@ main h2 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
 .text-cardd {
   position: relative;
   margin-top: -15px;
@@ -79,10 +87,12 @@ main h2 {
   border-radius: 20px;
   overflow: hidden;
 }
+
 .text-cardd h3 {
   margin-top: 2px;
   font-size: calc(.8rem + ((1vw - 7.68px) * 0.6944));
 }
+
 .text-cardd p {
   margin-top: -5px;
   line-height: 150%;
@@ -101,28 +111,32 @@ footer {
   align-items: center;
   display: none;
 }
+
 .foot-links {
   display: flex;
   justify-content: space-between;
   width: calc(70% + ((1vw - 7.68px) * 0.6944));
   margin: auto;
 }
+
 .foot-links a {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .foot-links a h3 {
   color: white;
   font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   margin-top: 5px;
 }
+
 .foot-links a img {
   width: calc(2rem + ((1vw - 7.68px) * 0.6944));
 }
 
 
-.foot-links a:nth-child(4) img{
+.foot-links a:nth-child(4) img {
   width: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
 }
 
@@ -131,15 +145,19 @@ footer {
   .cardd {
     grid-column: span 4;
   }
+
   .foot-links {
     width: 50%;
   }
+
   .text-cardd h3 {
     font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
   }
+
   .text-cardd p {
     font-size: calc(.6rem + ((1vw - 7.68px) * 0.6944));
   }
+
   .cardd a img {
     height: calc(10.5rem + ((1vw - 7.68px) * 0.6944));
   }
@@ -147,10 +165,11 @@ footer {
 
 /* laptop */
 @media screen and (min-width: 960px) {
-  
+
   footer {
     display: none;
   }
+
   header {
     display: block;
     grid-column: 1/4;
@@ -159,10 +178,12 @@ footer {
     position: sticky;
     top: 0;
   }
+
   main {
     padding-left: 30px;
     grid-column: 4/13;
-  } 
+  }
+
   main h2 {
     background-color: transparent;
     box-shadow: none;
@@ -176,14 +197,48 @@ footer {
     height: 100vh;
   }
 
+  .bg-nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: calc(5rem + ((1vw - 7.68px) * 0.6944));
+    z-index: -999;
+    transition: .3s;
+    top: -23px;
+  }
+
+  .on-page {
+    color: #6D8B74 !important;
+  }
+
+
+  .nav-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(8rem + 20vh);
+  }
 
   .nav-a a {
     display: flex;
     align-items: center;
+    margin-left: calc(3rem + ((1vw - 7.68px) * 0.6944));
   }
+
   .nav-a a h3 {
     color: white;
+    font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   }
+
+  .nav-a a img {
+    width: calc(2.2rem + ((1vw - 7.68px) * 0.6944));
+    margin-right: 10px;
+  }
+
+  .nav-a a:nth-child(4) img {
+    width: calc(1.8rem + ((1vw - 7.68px) * 0.6944));
+  }
+
   .nav-foto {
     margin: auto;
     display: block;
@@ -191,6 +246,7 @@ footer {
     margin: 50px auto;
     transition: 0.3s;
   }
+
   .nav-foto:hover {
     border: 1px solid black;
     border-radius: 20px;
@@ -198,6 +254,7 @@ footer {
     transition: 0.3s;
     content: '';
   }
+
   .nav-foto h3 {
     transition: .2s;
     text-align: center;
@@ -206,10 +263,12 @@ footer {
     /* width: 300px; */
     margin: auto;
   }
+
   .nav-foto:hover h3 {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
     transition: .2s;
   }
+
   .nav-foto .foto {
     background-color: black;
     border-radius: 100%;
@@ -220,30 +279,31 @@ footer {
     align-items: center;
     overflow: hidden;
   }
+
   .foto img {
     margin: auto;
     object-fit: cover;
   }
-  
-  .nav-a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 350px;
+
+
+
+
+  .cardd {
+    width: 80%;
   }
-  .nav-a a {
-    margin-left: calc(2rem + ((1vw - 7.68px) * 0.6944));
+
+  .text-cardd h3 {
+    font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
   }
-  .nav-a a img {
-    width: calc(2.5rem + ((1vw - 7.68px) * 0.6944));
-    margin-right: 10px;
+
+  .text-cardd p {
+    font-size: calc(.5rem + ((1vw - 7.68px) * 0.6944));
   }
-  .nav-a a:nth-child(4) img{
-    width: calc(1.8rem + ((1vw - 7.68px) * 0.6944));
+
+  .cardd a img {
+    height: calc(10.5rem + ((1vw - 7.68px) * 0.6944));
   }
-  .nav-a a h3 {
-    font-size: calc(1.4rem + ((1vw - 7.68px) * 0.6944));
-  }
+
 
   .copyright p {
     color: white;
@@ -254,18 +314,7 @@ footer {
     margin-top: -20px;
   }
 
-  .cardd {
-    width: 80%;
-  }
-  .text-cardd h3 {
-    font-size: calc(.9rem + ((1vw - 7.68px) * 0.6944));
-  }
-  .text-cardd p {
-    font-size: calc(.5rem + ((1vw - 7.68px) * 0.6944));
-  }
-  .cardd a img {
-    height: calc(10.5rem + ((1vw - 7.68px) * 0.6944));
-  }
+  
 }
 
 /* desktop */
@@ -275,27 +324,33 @@ footer {
     height: 100vh;
     background-color: var(--primary);
   }
+
   main {
     padding-left: 30px;
     grid-column: 4/13;
-  } 
+  }
+
   main h2 {
     font-size: 2rem;
     margin-top: 10px;
   }
+
   .nav-a a {
     display: flex;
     align-items: center;
   }
+
   .nav-a a h3 {
     color: white;
   }
+
   .nav-foto {
     margin: auto;
     display: block;
     margin: 50px auto;
     transition: 0.3s;
   }
+
   .nav-foto:hover {
     border: 1px solid black;
     border-radius: 20px;
@@ -303,6 +358,7 @@ footer {
     transition: 0.3s;
     content: '';
   }
+
   .nav-foto .foto {
     background-color: black;
     border-radius: 100%;
@@ -311,15 +367,19 @@ footer {
     align-items: center;
     overflow: hidden;
   }
+
   .nav-a a {
     margin-left: 40px;
   }
+
   .text-cardd h3 {
     font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
   }
+
   .text-cardd p {
     font-size: calc(.4rem + ((1vw - 7.68px) * 0.6944));
   }
+
   .cardd a img {
     height: calc(13.5rem + ((1vw - 7.68px) * 0.6944));
   }
