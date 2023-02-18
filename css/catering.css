@@ -201,10 +201,10 @@ footer {
     position: absolute;
     background-color: white;
     width: 100%;
-    height: calc(5rem + ((1vw - 7.68px) * 0.6944));
+    height: calc(2rem + 5vh);
     z-index: -999;
     transition: .3s;
-    top: -23px;
+    top: -15px;
   }
 
   .on-page {
@@ -242,7 +242,7 @@ footer {
   .nav-foto {
     margin: auto;
     display: block;
-    width: calc(16rem + ((1vw - 7.68px) * 0.6944));
+    width: calc(15rem + ((1vw - 7.68px) * 0.6944));
     margin: 50px auto;
     transition: 0.3s;
   }
@@ -250,7 +250,7 @@ footer {
   .nav-foto:hover {
     border: 1px solid black;
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     transition: 0.3s;
     content: '';
   }
@@ -349,6 +349,7 @@ footer {
     display: block;
     margin: 50px auto;
     transition: 0.3s;
+    width: calc(17rem + ((1vw - 7.68px) * 0.6944));
   }
 
   .nav-foto:hover {
