@@ -27,5 +27,26 @@ menu.onmouseover = () => {
   cateringImg.src="img/catering.png"
 }
 
+function myFunction(x) {
+  if (x.matches) {
+    document.querySelector('#navbar-togler').className="d-flex bg"
+    document.querySelector('#side-nav').className="side-na"
+    document.querySelector('#nav-header').className="left"
+  } else {
+    document.querySelector('#side-nav').className="side-nav"
+    document.querySelector('#nav-header').className=" "
+    document.querySelector('#navbar-togler').className="d-none"
+  }
+}
+var x = window.matchMedia("(max-width: 960px)")
+myFunction(x) 
+x.addListener(myFunction)
 
+const togler = document.querySelector('#togler')
+const togle = document.querySelector('#togle')
+const nav = document.querySelector('nav')
+
+togler.addEventListener('click', () => {
+  document.querySelector('#nav-header').classList.toggle('left')
+}) 
 
