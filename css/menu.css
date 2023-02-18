@@ -127,6 +127,16 @@ main nav ol li a {
   position: relative;
   right: 20px;
 }
+.list {
+  z-index: 90;
+  background-color: white;
+  width: 100%;
+  /* height: 100px; */
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+.list ul li {
+  margin-top: 10px;
+}
 
 .urutan {
   align-items: center;

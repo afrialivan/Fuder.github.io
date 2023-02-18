@@ -75,9 +75,15 @@
       </div>
     </div>
 
-    <form action="" class="search mt-3 mb-3">
-      <input type="text" class="search-text" placeholder="Cari Menu pilihan kamu disini">
+    <form action="" class="search mt-3 mb-3 position-relative">
+      <input type="text" class="search-text" placeholder="Cari Menu pilihan kamu disini"  id="search">
       <button class="search-btn"><img src="img/search.svg" alt=""></button>
+      <div class="list position-absolute mt-5 d-none" id="list">
+        <ul class="mt-3">
+          <li><a href="" class="text-decoration-none text-dark">Ayam Goreng Mentega - 12 Potong</a></li>
+          <li><a href="" class="text-decoration-none text-dark">Ayam Goreng Mentega - 12 Potong</a></li>
+        </ul>
+      </div>
     </form>
 
     <div class="urutan d-flex align-items-center mb-5">
@@ -195,6 +201,8 @@
       </a>
     </div>
   </footer>
+
+  <script src="js/menu.js"></script>
 </body>
 
 </html>
