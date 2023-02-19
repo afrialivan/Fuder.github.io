@@ -11,49 +11,55 @@
 </head>
 
 <body class="gridd">
-
-
   <header>
-    <nav class="side-nav">
+    <nav class="side-nav" id="side-nav">
 
       <div class="nav-container">
-        <div class="nav-foto">
-          <div class="foto">
-            <img src="img/profil.png" alt="">
+        <a href="../profil.html" class="text-decoration-none">
+          <div class="nav-foto">
+            <div class="foto">
+              <img src="../img/profil.png" alt="">
+            </div>
+            <h3>Selamat Datang, Afrial Ivan</h3>
           </div>
-          <h3>Selamat Datang, Afrial Ivan</h3>
-        </div>
-  
-        <div class="nav-a">
-          <a class="text-decoration-none" href="../catering.html">
-            <img src="../img/catering.png" alt="">
-            <h3>CATERING</h3>
+        </a>
+
+        <div class="nav-a position-relative">
+          <div class="bg-nav" id="bg-nav"></div>
+          <a class="text-decoration-none" href="../catering.html" id="catering">
+            <img src="../img/catering-aktif.svg" alt="">
+            <h3 class="on-page">CATERING</h3>
           </a>
-          <a class="text-decoration-none" href="../menu.html">
+          <a class="text-decoration-none" href="../menu.html" id="menu">
             <img src="../img/menu.png" alt="">
             <h3>MENU</h3>
           </a>
-          <a class="text-decoration-none" href="../keranjang.html">
+          <a class="text-decoration-none" href="../keranjang.html" id="keranjang">
             <img src="../img/keranjang.png" alt="">
             <h3>KERANJANG</h3>
           </a>
-          <a class="text-decoration-none" href="../pesanan/pesanan-belum-bayar.html">
+          <a class="text-decoration-none" href="../pesanan/pesanan-belum-bayar.html" id="pesanan">
             <img src="../img/pesanan.png" alt="">
             <h3>PESANAN</h3>
           </a>
         </div>
       </div>
-      
+
+
+      <div class="copyright">
+        <p class="text-center text-light">Copyright</p>
+        <p class="text-center text-light">PT. Fuder Makanan Indonesia</p>
+      </div>
 
     </nav>
-  </header>
-
+  </div>
+</header>
 
 
   <main>
     <nav aria-label="breadcrumb" class="mt-4">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Catering Pratama</a></li>
+        <li class="breadcrumb-item"><a href="../#" class="text-decoration-none">Catering Pratama</a></li>
         <li class="breadcrumb-item text-dark active" aria-current="page">Prasmanan</li>
       </ol>
       <!-- <hr> -->
@@ -81,31 +87,31 @@
 
     <div class="nav-menu d-lg-flex gridd">
       <div class="nav-menu-item active">
-        <a href="" class="text-decoration-none">
+        <a href="../" class="text-decoration-none">
           <h4>PRASMANAN</h4>
           <p>4 product</p>
         </a>
       </div>
       <div class="nav-menu-item ">
-        <a href="" class="text-decoration-none">
+        <a href="../" class="text-decoration-none">
           <h4>NASI KOTAK</h4>
           <p>4 product</p>
         </a>
       </div>
       <div class="nav-menu-item ">
-        <a href="" class="text-decoration-none">
+        <a href="../" class="text-decoration-none">
           <h4>SNACK/JAJANAN</h4>
           <p>4 product</p>
         </a>
       </div>
       <div class="nav-menu-item ">
-        <a href="" class="text-decoration-none">
+        <a href="../" class="text-decoration-none">
           <h4>MENU LAIN</h4>
           <p>4 product</p>
         </a>
       </div>
       <div class="nav-menu-item ">
-        <a href="" class="text-decoration-none">
+        <a href="../" class="text-decoration-none">
           <h4>MINUMAN</h4>
           <p>4 product</p>
         </a>
@@ -114,34 +120,34 @@
 
     <div class="cardds gridd mt-5">
       <div class="cardd">
-        <a class="text-decoration-none" href="pilihan-menu.html">
+        <a class="text-decoration-none" href="../pilihan-menu.html">
           <img class="d-block m-auto mt-3" src="../img/gambar1.png" alt="">
           <div class="text-cardd">
             <h5>Tumis Kangkung</h5>
             <h3>Rp 70.000</h3>
-            <a href="" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
+            <a href="../" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
           </div>
         </a>
       </div>
 
       <div class="cardd">
-        <a class="text-decoration-none" href="pilihan-menu.html">
+        <a class="text-decoration-none" href="../pilihan-menu.html">
           <img class="d-block m-auto mt-3" src="../img/gambar1.png" alt="">
           <div class="text-cardd">
             <h5>Tumis Kangkung</h5>
             <h3>Rp 70.000</h3>
-            <a href="" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
+            <a href="../" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
           </div>
         </a>
       </div>
 
       <div class="cardd">
-        <a class="text-decoration-none" href="pilihan-menu.html">
+        <a class="text-decoration-none" href="../pilihan-menu.html">
           <img class="d-block m-auto mt-3" src="../img/gambar1.png" alt="">
           <div class="text-cardd">
             <h5>Tumis Kangkung</h5>
             <h3>Rp 70.000</h3>
-            <a href="" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
+            <a href="../" class="btn btn-outline-dark float-md-end buttong me-md-4">Lihat Lebih Detail</a>
           </div>
         </a>
       </div>
@@ -156,21 +162,25 @@
   </main>
   <footer>
     <div class="foot-links">
-      <a class="text-decoration-none" href="catering.html">
-        <img src="img/catering.png" alt="">
-        <h3>CATERING</h3>
+      <a class="text-decoration-none" href="../catering.html">
+        <img src="../img/catering.png" alt="">
+        <p class="h7 text-decoration-none text-light">Catering</p>
       </a>
-      <a class="text-decoration-none" href="menu.html">
-        <img src="img/menu.png" alt="">
-        <h3>MENU</h3>
+      <a class="text-decoration-none" href="../menu.html">
+        <img src="../img/menu.svg" alt="">
+        <p class="h7 text-decoration-none text-light">Menu</p>
       </a>
-      <a class="text-decoration-none" href="chat.html">
-        <img src="img/chat.png" alt="">
-        <h3>CHAT</h3>
+      <a class="text-decoration-none" href="../keranjang.html">
+        <img src="../img/keranjang.svg" alt="">
+        <p class="h7 text-decoration-none text-light">keranjang</p>
       </a>
-      <a class="text-decoration-none" href="pesanan.html">
-        <img src="img/pesanan.png" alt="">
-        <h3>PESANAN</h3>
+      <a class="text-decoration-none" href="../pesanan/pesanan-belum-bayar.html">
+        <img src="../img/pesanan.svg" alt="">
+        <p class="h7 text-decoration-none text-light">Pesanan</p>
+      </a>
+      <a class="text-decoration-none" href="../profil.html">
+        <img src="../img/akun.svg" alt="">
+        <p class="h7 text-decoration-none text-light">Akun</p>
       </a>
     </div>
   </footer>
