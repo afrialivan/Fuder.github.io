@@ -424,21 +424,13 @@ footer {
     margin-top: 10px;
   }
 
-  .nav-a a {
-    display: flex;
-    align-items: center;
-  }
-
   .nav-a a h3 {
     color: white;
   }
 
   .nav-foto {
-    margin: auto;
-    display: block;
-    margin: 50px auto;
     transition: 0.3s;
-    width: calc(17rem + ((1vw - 7.68px) * 0.6944));
+    width: calc(18rem + ((1vw - 7.68px) * 0.6944));
   }
 
   .nav-foto:hover {
