@@ -136,11 +136,12 @@ footer {
 
 .foot-links a img {
   width: calc(1.7rem + ((1vw - 7.68px) * 0.6944));
+  height: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
 }
 
-.foot-links a:nth-child(4) img {
+/* .foot-links a:nth-child(4) img {
   width: calc(1.5rem + ((1vw - 7.68px) * 0.6944));
-}
+} */
 
 /* extra small mobile */
 @media screen and (max-width: 310px) {
