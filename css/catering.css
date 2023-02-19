@@ -69,7 +69,7 @@ header {
 .nav-a a {
   display: flex;
   align-items: center;
-  margin-left: calc(3rem + ((1vw - 7.68px) * 0.6944));
+  margin-left: calc(1rem + ((1vw - 7.68px) * 0.6944));
 }
 
 .nav-a a h3 {
@@ -126,6 +126,7 @@ header {
   object-fit: cover;
 }
 .copyright p {
+  margin-top: -100px;
   color: white;
   font-size: calc(.7rem + ((1vw - 7.68px) * 0.6944));
 }
