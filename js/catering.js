@@ -10,22 +10,22 @@ const bgnav = document.getElementById('bg-nav')
 
 var tinggi = window.innerHeight / 12
 
-function keluar() {
-  bgnav.style.top="-15px"
-  menuText.classList.remove("on-page")
-  cateringText.className = "on-page"
-  menuImg.src="img/menu.png"
-  cateringImg.src="img/catering-aktif.svg"
-}
+// function keluar() {
+//   bgnav.style.top="-15px"
+//   menuText.classList.remove("on-page")
+//   cateringText.className = "on-page"
+//   menuImg.src="img/menu.png"
+//   cateringImg.src="img/catering-aktif.svg"
+// }
 
-menu.onmouseleave = keluar
-menu.onmouseover = () => {
-  cateringText.classList.remove("on-page")
-  bgnav.style.top= tinggi + "px"
-  menuText.className = "on-page"
-  menuImg.src="img/menu-aktif.svg"
-  cateringImg.src="img/catering.png"
-}
+// menu.onmouseleave = keluar
+// menu.onmouseover = () => {
+//   cateringText.classList.remove("on-page")
+//   bgnav.style.top= tinggi + "px"
+//   menuText.className = "on-page"
+//   menuImg.src="img/menu-aktif.svg"
+//   cateringImg.src="img/catering.png"
+// }
 
 function myFunction(x) {
   if (x.matches) {

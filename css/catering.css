@@ -40,7 +40,7 @@ header {
   background-color: #6D8B74;
 }
 
-.bg-nav {
+/* .bg-nav {
   position: absolute;
   background-color: white;
   width: 100%;
@@ -48,7 +48,7 @@ header {
   z-index: -999;
   transition: .3s;
   top: -15px;
-}
+} */
 
 .on-page {
   color: #6D8B74 !important;
@@ -89,15 +89,15 @@ header {
 .nav-foto {
   margin: auto;
   display: block;
-  width: calc(15rem + ((1vw - 7.68px) * 0.6944));
-  margin: 50px auto;
+  width: calc(11rem + ((1vw - 7.68px) * 0.6944));
+  margin: 10px auto;
   transition: 0.3s;
 }
 
 .nav-foto h3 {
   transition: .2s;
   text-align: center;
-  font-size: calc(1.5rem + ((1vw - 7.68px) * 0.6944)) !important;
+  font-size: calc(1.3rem + ((1vw - 7.68px) * 0.6944)) !important;
   color: white;
   /* width: 300px; */
   margin: auto;
@@ -111,8 +111,8 @@ header {
 .nav-foto .foto {
   background-color: black;
   border-radius: 100%;
-  width: calc(10rem + ((1vw - 7.68px) * 0.6944));
-  height: calc(10rem + ((1vw - 7.68px) * 0.6944));
+  width: calc(5rem + ((1vw - 7.68px) * 0.6944));
+  height: calc(5rem + ((1vw - 7.68px) * 0.6944));
   margin: auto;
   display: flex;
   align-items: center;
@@ -120,6 +120,8 @@ header {
 }
 
 .foto img {
+  width: 100%;
+  height: 100%;
   margin: auto;
   object-fit: cover;
 }
