@@ -79,12 +79,15 @@ main {
   border-radius: 20px;
 }
 
-.tombol-jumlah p {
+.tombol-jumlah input {
   line-height: 40px;
+  border: none;
   border-left: 1px solid #BDBDBD;
   border-right: 1px solid #BDBDBD;
   height: 100%;
   padding: 0 15px;
+  width: 50px;
+  text-align: center;
 }
 
 .rows p {

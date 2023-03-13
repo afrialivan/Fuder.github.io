@@ -74,10 +74,10 @@
         <div class="row">
           <div class="col-6">
             <div class="tombol-jumlah d-flex justify-content-around">
-              <button class="btn">-</button>
-              <p>1</p>
-              <button class="btn">+</button>
-            </div>
+              <button type="button" class="btn" id="keranjangKurang">-</button>
+              <input type="number" name="jumlah_menu" id="jumlah" value="0">
+              <button type="button" class="btn" id="keranjangTambah">+</button>
+          </div>
           </div>
           <div class="col-6">
             <p><span class="fw-bold">Category :</span> Tumpeng</p>
@@ -89,7 +89,7 @@
         </div>
         <div class="row">
           <div class="col-6 tombol">
-            <button class="btn text-light" id="keranjang">Tambahkan di Keranjang</button>
+            <button class="btn text-light" id="tambahKeranjang">Tambahkan di Keranjang</button>
           </div>
           <div class="col-6 tombol">
             <a class="btn text-light" href="bandingkan.html">Bandingan Menu</a>
